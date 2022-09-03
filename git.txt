@@ -1,0 +1,11 @@
+1. Iniciar nuestro repositorio
+    git init
+2. Configurar nuestro repositorio
+    git config --global user.name "usename"
+    git config --global user.email "email"
+    git config --global user.password "password"
+
+    git remote add origin URL
+    git add .
+    git commit -m "descripcion"
+    git push -u origin master
